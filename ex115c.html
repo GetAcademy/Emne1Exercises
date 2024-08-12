@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .vcenter{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Mitt skjema</h3>
+    <div id="app">
+        <div>
+            First Name
+        </div>
+        <div>
+            <input type="text">
+        </div>
+        <div>
+            Last Name
+        </div>
+        <div>
+            <input type="text">
+        </div>        
+        <div>
+            En til hundre
+        </div>
+        <div>
+            <input type="range">
+        </div>
+        <div>
+            Skriv inn et tall
+        </div>
+        <div>
+            <input type="number">
+        </div>
+        <div class="vcenter">
+            Favorittspråk
+        </div>
+        <div>
+            <input type="radio" name="lang"> HTML<br />
+            <input type="radio" name="lang"> CSS<br />
+            <input type="radio" name="lang"> JavaScript<br />
+        </div>
+    </div>
+</body>
+
+</html>
